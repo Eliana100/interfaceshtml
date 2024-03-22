@@ -1,0 +1,23 @@
+.tabela1{
+    float:left;
+    width:40%
+
+}
+.tabela2{
+    float:right;
+    width:40%
+
+}
+table {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-collapse: collapse;
+}
+tr:nth-child(even) {
+    background-color: rgb(239, 113, 195);
+}
+th, td {
+    border: 1px solid rgb(170, 98, 237);
+    text-align: left;
+    padding: 8px;
+}
+
